@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin-top: 0;
+    background-image: url('./back2.png');
+    background-size: cover;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    content: "";
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+img{
+    padding-right: 0;
+    display: block;
+    height: 90%;
+    width: 20%;
+    margin: auto;
+    border: 1px solid green;
+    border-radius: 500px;
+}
+#heading{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 10vh;
+    background-image:linear-gradient(white,rgb(125, 180, 125));
+    max-width: 50vw;
+    max-height: 5vh;
+    margin-left:25%;
+    border: 2px solid rgb(125, 180, 125);
+    display: flex;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-bottom: 2px solid rgb(125, 180, 125);
+}
+h1{
+    text-align: center;
+    font-family: 'sans-serif';
+    word-wrap: break-word;
+
+}
+.container{
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5bottom;
+    background-image:linear-gradient(white,rgb(125, 180, 125));
+    max-width: 50vw;
+    height: 60vh;
+    margin-left:25%;
+    border:2px solid rgb(92, 230, 115);
+    overflow-y: auto;
+}
+#logo{
+    width: 30%;
+    height: 30%;
+}
+.left{
+    float: left;
+    clear: both;
+}
+.right{
+    float:right;
+    clear: both;
+}
+.message{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,sans-serif,cursive;
+    word-wrap: break-word;
+    margin: 5px 5px;
+    border:2px solid rgb(202, 167, 102);
+    border-radius: 5px;
+    padding: 3px 10px;
+    background-image: linear-gradient(white,rgb(87, 189, 214));
+    width: 24%;
+    text-align: center;
+}
+.box{
+    margin-left: 23%;
+    display: flex;
+    width: 50vw;
+}
+input{
+    display: block;
+    margin: auto;
+    margin-left: 5%;
+    margin-top: 2.5%;
+    width:40vw;
+    border-radius: 10px;
+    padding: 5px 10px; 
+}
+button{
+    background-color: transparent;
+    margin-top: 2%;
+    margin-left: 30%;
+    border-style: none;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+}
+.btn{
+    height: 100%;
+    width: 100%;
+    border-radius: 60%;
+}
+.mid{
+    clear: both;
+    display: block;
+    margin:auto;
+    margin-top: 0.7%;
+    align-items: center;
+    background-image: linear-gradient(white,rgb(189, 100, 216));
+}
+
+
+
+
+/* For responsive design */
+@media (max-width:1335px){
+    .message{
+        width: 34%;
+    }
+    h1{
+        font-size: 1.5rem;
+    }
+    button{
+        padding-top: 10%;
+    }
+}
+@media (max-width:747px){
+    .message{
+        width: 54%;
+    }
+    h1{
+        width: 120%;
+        margin-top: 6%;
+        margin-left: 5%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    #logo{
+        margin-left: 5%;
+        margin-top: 2%;
+        width:5%;
+        height:5%
+    }
+    #heading{
+        margin-left: 5%;
+        max-width: 90vw;
+        max-height: 10vh;
+    }
+    .container{
+        margin-left: 5%;
+        max-width: 90vw;
+    }
+    #img1{
+        padding-left: 1%;
+        padding-bottom: 1%;
+        width: 100%;
+        height: 100%;
+    }
+    button{
+        padding-top: 15%;
+        padding-left: 15%;
+        width: 200%;
+    }
+    .head{
+        max-width: 100vh;
+    }
+    input{
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+}
+@media (max-width:299px){
+    .message{
+        width: 60%;
+    }
+    h1{
+        padding-left: 10%;
+        font-size: 1rem;
+        text-align: center;
+    }
+    #logo{
+        width:10%;
+        height:40%
+    }
+    #heading{
+        padding-left: 0px;
+        margin-left: 5%;
+        max-width: 90vw;
+        height: 10vh;
+    }
+    .container{
+        margin-left: 5%;
+        max-width: 90vw;
+    }
+    #img1{
+        padding-left: 1%;
+        padding-bottom: 1%;
+        width: 100%;
+        height: 100%;
+        margin-left: 100px;
+    }
+    button{
+        padding-top: 15%;
+        padding-left:15%;
+        width: 200%;
+        height: 100%;
+    }
+    input{
+        margin-left: -10%;
+    }
+}
+@media (max-width:355px){
+    #logo{
+        margin-left: 10%;
+        margin-top: 3%;
+    }
+    h1{
+        margin-left: 0%;
+    }
+}
+@media (max-width:299px){
+    html{
+        height: 150vh;
+    }
+    #heading{
+        max-height: 10vh;
+    }
+    #logo{
+        margin-left: -30%;
+    }
+    h1 {
+        width: 120%;
+        margin-top: 6%;
+        margin-left: 35%;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    button{
+        padding-top: 15%;
+        padding-left:15%;
+        width: 400%;
+        height: 100%;
+    }
+
+}

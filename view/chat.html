@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&display=swap" rel="stylesheet">
+    <!-- server client ko jodne k liye script to phle ye script lgegi then client wali -->
+    <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script defer src="../node_server/script.js"></script>
+    <link rel="stylesheet" href="../static/style.css">
+    <title>∑ Meet | Sigma </title>
+</head>
+
+<body>
+    <div id="heading">
+        <div id="logo">
+            <img id="img1" src="../static/Whatsapp.png" alt="Icon">
+        </div>
+        <div class="head">
+            <h1>Welcome To Sigma Team</h1>
+        </div>
+    </div>
+    <div class="container">
+        <!-- <div class="message left">Left:This is senders side.</div>
+        <div class="message mid">Someone Enetered the chat</div>
+        <div class="message right">Right:This is my side.</div> -->
+    </div>
+    <form action="#" id="myform">
+    <div class="box">
+            <div>
+                <input type="submt" id="tosend" placeholder="Type a message">
+            </div>
+            <div class="sol2">
+                <button><img class="btn" src="../static/button.jpg" alt="send"></button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
